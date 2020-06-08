@@ -1,0 +1,6 @@
+Composite: When I fill password in the registration form
+When I enter `${registeredUserPass}` in field located `By.xpath(//*[@id="password"])`
+
+Composite: When I fill email and password in the registration form
+When I enter `<email>` in field located `By.xpath(//*[@id="user"])`
+When I enter `<pass>` in field located `By.xpath(//input[@id="password"])`
